@@ -26,7 +26,7 @@ cp .env.example .env
 Update `.env` if your backend runs on a different port:
 
 ```txt
-VITE_API_BASE_URL=http://localhost:5000/api
+VITE_API_BASE_URL=https://localhost:7127/api
 ```
 
 Run the frontend:
@@ -36,9 +36,8 @@ npm run dev
 
 Open:
 
-```txt
 http://localhost:5173
-```
+
 
 ## Build
 

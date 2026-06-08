@@ -1,6 +1,6 @@
 import type { CreateTaskRequest, TaskItem, UpdateTaskRequest } from '../types/task';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'https:/localhost:7127/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'https://localhost:7127/api';
 const TASKS_URL = `${API_BASE_URL}/Kanban`;
 
 async function request<T>(url: string, options?: RequestInit): Promise<T> {
